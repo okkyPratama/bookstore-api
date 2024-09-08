@@ -121,5 +121,4 @@ Semua endpoint (kecuali registrasi dan login) memerlukan token JWT yang valid. S
 
 ## Deployment
 
-Aplikasi ini siap untuk di-deploy ke Railway. Pastikan untuk mengatur variabel lingkungan yang diperlukan di dashboard Railway.
-
+- Link Railway: bookstore-api-production-7614.up.railway.app

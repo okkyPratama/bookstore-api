@@ -26,7 +26,7 @@ func main() {
 		os.Getenv("PGPASSWORD"),
 		os.Getenv("PGDATABASE"),
 	)
-
+	os.Getenv("PORT")
 	err = db.InitDB(psqlInfo)
 	if err != nil {
 		log.Fatalf("Failed to initialize database: %v", err)
@@ -71,5 +71,5 @@ func main() {
 	}
 
 	fmt.Println("Server is running on port 8080...")
-	r.Run(":8080")
+	r.Run(os.Getenv("PORT"))
 }
