@@ -21,7 +21,7 @@ Sebelum menjalankan aplikasi, pastikan Anda telah menginstal:
 
 1. Clone repositori ini:
    ```
-   git clone https://github.com/username/bookstore-api.git
+   git clone https://github.com/okkyPratama/bookstore-api.git
    cd bookstore-api
    ```
 
