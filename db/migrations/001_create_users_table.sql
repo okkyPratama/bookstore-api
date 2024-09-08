@@ -1,0 +1,17 @@
+-- +migrate Up
+-- +migrate StatementBegin
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_by VARCHAR(50),
+    modified_at TIMESTAMP,
+    modified_by VARCHAR(50)
+);
+-- +migrate StatementEnd
+
+-- +migrate Down
+-- +migrate StatementBegin
+DROP TABLE users;
+-- +migrate StatementEnd
