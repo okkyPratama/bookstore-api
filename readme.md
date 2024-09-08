@@ -121,4 +121,4 @@ Semua endpoint (kecuali registrasi dan login) memerlukan token JWT yang valid. S
 
 ## Deployment
 
-- Link Railway: bookstore-api-production-7614.up.railway.app
+- Link Railway: [bookstore-api-production-7614.up.railway.app](https://bookstore-api-production-7614.up.railway.app/)
